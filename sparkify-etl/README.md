@@ -35,7 +35,9 @@ Finally, the etl.py script extracts the information of song and logs files and u
 use `ON CONFLICT DO NOTHING`.  Below find the  final ERD diagram (produced via www.lucidchart.com).
 
 
-![image.](./media/ERD_sparkigy.png)
+<p align="center">
+  <img  src="./media/ERD_sparkigy.png">
+</p>
 
 
 ## Song play example queries
