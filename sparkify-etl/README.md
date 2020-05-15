@@ -63,7 +63,7 @@ u.gender
 
 Build container and image as a local server running on port 5555
 
-`docker build -t sparkify-container .`
+`docker build -t sparkify-image .`
 
 `docker run -d --name sparkify-container -p 5555:5432 sparkify-image`
 
