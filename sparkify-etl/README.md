@@ -72,8 +72,8 @@ docker stop sparkigy—student-container
 docker rm sparkigy—student-container
 docker rmi sparkigy—student-image
 
-Have a look at !(tutorial)[https://medium.com/@wkrzywiec/database-in-a-docker-container-how-to-start-and-whats-it-about-5e3ceea77e50], 
-!(reference)[https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/] and 
-!(reference)[https://stackoverflow.com/questions/53610266/cannot-connect-to-postgres-container-using-psycopg2] expand 
+Have a look at ![tutorial](https://medium.com/@wkrzywiec/database-in-a-docker-container-how-to-start-and-whats-it-about-5e3ceea77e50), 
+![reference](https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/) and 
+![reference](https://stackoverflow.com/questions/53610266/cannot-connect-to-postgres-container-using-psycopg2) expand 
 on how to deal with connecting multiple containers.
 
