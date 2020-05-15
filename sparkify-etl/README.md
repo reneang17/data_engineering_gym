@@ -35,7 +35,9 @@ Finally, the etl.py script extracts the information of song and logs files and u
 use `ON CONFLICT DO NOTHING`.  Below find the  final ERD diagram (produced via www.lucidchart.com).
 
 
-![](./media/ERD_sparkify.png)
+<p align="center">
+  <img  src="./media/ERD_sparkify.png">
+</p>
 
 
 ## Song play example queries
@@ -67,12 +69,14 @@ Build container and image as a local server running on port 5555
 
 then install requirement and run the scripts create_tables.py, then etl.py and check the jupyter nb test.ipynb.
 Clean the server/databse running.
+
 ```{bash}
 docker stop sparkify—student-container
 docker rm sparkify—student-container
 docker rmi sparkify—student-image
 ```
-Have a look at ![tutorial][https://medium.com/@wkrzywiec/database-in-a-docker-container-how-to-start-and-whats-it-about-5e3ceea77e50], 
+
+Have a look at ![tutorial](https://medium.com/@wkrzywiec/database-in-a-docker-container-how-to-start-and-whats-it-about-5e3ceea77e50), 
 ![reference](https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/) and 
 ![reference](https://stackoverflow.com/questions/53610266/cannot-connect-to-postgres-container-using-psycopg2) expand 
 on how to deal with connecting multiple containers.
