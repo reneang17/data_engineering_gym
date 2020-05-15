@@ -47,15 +47,15 @@ ORDER BY weekday;`
 
 The average duration of the song each gender listens to (why not?! XD):
 
-`SELECT u.gender, AVG(s.duration)
-FROM songplays AS sp
-JOIN songs AS s 
-ON s.song_id = sp.song_id
-JOIN users AS u
-ON u.user_id = sp.user_id
-GROUP BY 
-u.gender
-`
+`SELECT u.gender, AVG(s.duration)`
+`FROM songplays AS sp`
+`JOIN songs AS s `
+`ON s.song_id = sp.song_id`
+`JOIN users AS u`
+`ON u.user_id = sp.user_id`
+`GROUP BY `
+`u.gender`
+
 
 ## Run this project with docker
 
