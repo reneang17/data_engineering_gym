@@ -36,7 +36,7 @@ use `ON CONFLICT DO NOTHING`.  Below find the  final ERD diagram (produced via w
 
 
 <p align="center">
-  <img  src="./media/ERD_sparkigy.png">
+  <img  src="./media/ERD_sparkify.png">
 </p>
 
 
