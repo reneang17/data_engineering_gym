@@ -65,15 +65,15 @@ Build container and image as a local server running on port 5555
 
 `docker build -t sparkify—student-container .`
 
-`docker run -d --name sparkify—student-container -p 5555:5432 sparkify—student-image`
+`docker run -d --name sparkify-container -p 5555:5432 sparkify—student-image`
 
 then install requirement and run the scripts create_tables.py, then etl.py and check the jupyter nb test.ipynb.
 Clean the server/databse running.
 
 ```{bash}
-docker stop sparkify—student-container
-docker rm sparkify—student-container
-docker rmi sparkify—student-image
+docker stop sparkify-container
+docker rm sparkify-container
+docker rmi sparkify-image
 ```
 
 Have a look at ![tutorial](https://medium.com/@wkrzywiec/database-in-a-docker-container-how-to-start-and-whats-it-about-5e3ceea77e50), 
