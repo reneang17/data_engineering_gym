@@ -1,0 +1,9 @@
+cassandra-driver
+pandas
+re
+os
+glob
+numpy
+json
+csv
+logging
