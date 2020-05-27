@@ -1,5 +1,5 @@
 
-# Music streaming-app, analytics with Apache Cassandra
+# Music-streaming-app, analytics with Apache Cassandra
 
 
 In this project, from my Data Enginerring Udacity degree, I create a NoSQL using Apache Cassandra database `sparkifyks` for a music streming app, *Sparkify*. The purpose of this database is creating tables to answer the following queries:
@@ -57,7 +57,4 @@ docker stop cassandra
 docker rm cassandra
 docker rmi cassandra
 ```
-
-
-
 
