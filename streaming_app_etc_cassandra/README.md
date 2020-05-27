@@ -47,8 +47,7 @@ To start the running enviroment build and run the container using
 docker-compose up
 ```
 
-This command authomatically run the yaml configuration file I took from 
-![link](https://medium.com/swlh/building-a-python-data-pipeline-to-apache-cassandra-on-a-docker-container-fc757fbfafdd).
+This command authomatically run the yaml configuration file I took from [awesome post](https://medium.com/swlh/building-a-python-data-pipeline-to-apache-cassandra-on-a-docker-container-fc757fbfafdd).
 
 Run the following to clean up:
 
