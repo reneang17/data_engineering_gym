@@ -58,4 +58,3 @@ docker rm cassandra
 docker rmi cassandra
 ```
 
-
